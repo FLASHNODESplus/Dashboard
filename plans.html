@@ -1,0 +1,22 @@
+
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plans</title><link rel="stylesheet" href="style.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script></head>
+<body>
+<header><h1>Ultimate Minecraft Dashboard</h1><nav><a href="index.html">Home</a><a href="features.html">Features</a><a href="plans.html">Plans</a><a href="tos.html">Terms</a><a href="contact.html">Contact</a></nav></header>
+<section class="section plans">
+<h2>Game Hosting Plans</h2>
+<div class="carousel-container">
+<button class="nav-btn" id="prev-btn" onclick="prevPlan()">&lt;</button>
+<div id="plan-card" class="plan-card"></div>
+<button class="nav-btn" id="next-btn" onclick="nextPlan()">&gt;</button>
+<div id="qr-section" style="display:none;text-align:center;margin-top:20px;">
+<h3>Scan QR to Pay via UPI</h3>
+<canvas id="qr"></canvas>
+<p>After payment, take a screenshot and create a support ticket.</p>
+</div>
+</div>
+</section>
+<footer><p>&copy; 2025 Ultimate Minecraft Dashboard</p></footer>
+<script src="script.js"></script>
+<script src="plans.js"></script>
+</body></html>
